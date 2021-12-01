@@ -105,3 +105,5 @@ https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfd
                 * Make sure your db-based slack app has "Redirect Urls" pointing to the correct Foyer URL. If your org is on Prod or TEST1, refer [this doc](https://salesforce.quip.com/N3h3AFbIVyxy)
 
                 * Authorize your db-based slack app with `https://yourorgdomain.force.com/slack/slack-connect?appId={appId}` 
+
+4. Now you are ready to run quick test at `https://yourorgdomain.force.com/qa/notifications/quickTest.jsp`
