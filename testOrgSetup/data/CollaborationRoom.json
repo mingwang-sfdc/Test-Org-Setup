@@ -1,0 +1,13 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "CollaborationRoom",
+                "referenceId": "CollaborationRoomRef1"
+            },
+            "Name": "notifications-test",
+            "PlatformKey": "C020GRPNB5Z",
+            "TeamKey": "T01QEJ7T0JH"
+        }
+    ]
+}

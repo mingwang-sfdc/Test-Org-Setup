@@ -1,0 +1,12 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true
+    }
+  ],
+  "name": "testOrgSetup",
+  "namespace": "orgSetup",
+  "sfdcLoginUrl": "https://mingwang-wsm.internal.salesforce.com:6101",
+  "sourceApiVersion": "54.0"
+}

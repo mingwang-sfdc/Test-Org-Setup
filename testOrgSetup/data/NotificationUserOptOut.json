@@ -1,0 +1,20 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "NotificationUserOptOut",
+                "referenceId": "NotificationUserOptOutRef1"
+            },
+            "NotificationType": "close_date_upcoming",
+            "Record": "006xx0000010001"
+        },
+        {
+            "attributes": {
+                "type": "NotificationUserOptOut",
+                "referenceId": "NotificationUserOptOutRef2"
+            },
+            "NotificationType": "close_date_upcoming",
+            "Record": "006xx0000010002"
+        }
+    ]
+}
