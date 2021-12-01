@@ -6,9 +6,11 @@
 
 https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_install_cli.htm
 
-2. Clone this folder to your local
+2. Authorize your org with `sfdx auth:web:login -r {LoginURL} -a YourOrgAlias`
 
-3. Import quick test data into the new org
+3. Clone this folder to your local
+
+4. Import quick test data into the new org
 
     * Slack Permission
 
@@ -106,4 +108,4 @@ https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfd
 
                 * Authorize your db-based slack app with `https://yourorgdomain.force.com/slack/slack-connect?appId={appId}` 
 
-4. Now you are ready to run quick test at `https://yourorgdomain.force.com/qa/notifications/quickTest.jsp`
+5. Now you are ready to run quick test at `https://yourorgdomain.force.com/qa/notifications/quickTest.jsp`
