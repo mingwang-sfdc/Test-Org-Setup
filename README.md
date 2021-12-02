@@ -109,3 +109,11 @@ https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfd
                 * Authorize your db-based slack app with `https://yourorgdomain.force.com/slack/slack-connect?appId={appId}` 
 
 5. Now you are ready to run quick test at `https://yourorgdomain.force.com/qa/notifications/quickTest.jsp`
+
+##### Troubleshootings:
+
+1. After finishing all setup, if you are still not able to run Quick Test 2 for UNS (Send Slack notification via UNS to a Slack channel), please check if your Slack app has been added to that channel. 
+
+    <img src="images/troubleshooting1.png"
+     alt="troubleshooting1"
+     style="margin-right: 10px;" />
