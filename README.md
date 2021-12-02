@@ -1,5 +1,5 @@
 # Test-Org-Setup
-##### Steps of preparing a new test org for notification quick tests
+### Steps of preparing a new test org for notification quick tests
 
 
 1. Install SFDX CLI
@@ -110,7 +110,7 @@ https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfd
 
 5. Now you are ready to run quick test at `https://yourorgdomain.force.com/qa/notifications/quickTest.jsp`
 
-##### Troubleshootings:
+### Troubleshootings:
 
 1. After finishing all setup, if you are still not able to run Quick Test 2 for UNS (Send Slack notification via UNS to a Slack channel), please check if your Slack app has been added to that channel. 
 
