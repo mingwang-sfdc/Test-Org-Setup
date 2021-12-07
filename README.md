@@ -44,7 +44,11 @@ https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfd
 
             * **YES**. Skip steps for CollaborationRoom
 
-            * **NO**. In `testOrgSetup` folder, run 
+            * **NO**. 
+            
+                * Update the values in `testOrgSetup/data/CollaborationRoom.json`. Change *PlatformKey* and *TeamKey* to the value of slack channel that you would like to receive notifications.
+                
+                * In `testOrgSetup` folder, run 
             
                 ```
                 sfdx force:data:tree:import --sobjecttreefiles data/CollaborationRoom.json --apiversion=54.0 -u YourOrgAlias 
